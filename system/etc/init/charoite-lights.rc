@@ -1,0 +1,6 @@
+service vendor.light-default /system/bin/android.hardware.lights-service.mediatek
+    override
+    class hal
+    user system
+    group system
+    shutdown critical

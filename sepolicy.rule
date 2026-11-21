@@ -1,0 +1,6 @@
+allow init mtk_hal_light process2 nosuid_transition
+allow init mtk_hal_light_exec file { execute execute_no_trans }
+allow mtk_hal_light sysfs_leds dir { search read open }
+allow mtk_hal_light sysfs_leds file { read write open getattr }
+allow system_server adb_data_file dir { read open getattr search }
+allow system_server adb_data_file file { read open getattr }

@@ -1,0 +1,14 @@
+# Build outputs and archives
+*.zip
+*.tar
+*.gz
+*.7z
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*~
+.vscode/
+.idea/
